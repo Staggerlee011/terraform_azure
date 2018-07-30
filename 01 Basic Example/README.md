@@ -1,6 +1,12 @@
 # Basic Example
 Creates a resource group and network with some subnets
 
+## config
+choco install azure-cli -y
+choc install terraform -y
+
+use `az login` to connect to azure subscription or you can populate in the .tf
+
 `terrform  init`
 loads the tf file and checks it works
 
